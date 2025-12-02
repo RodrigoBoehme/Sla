@@ -1,0 +1,20 @@
+.body{
+    background-color: aliceblue;
+    align-self: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    text-align: center;/*centraliza tudo dentro da caixa */
+    width: 50%; /*a largura maxima é de 80% dentro da tela*/
+    max-width: 500px;/*a largura maxima da caixa sera 500px*/
+    margin: auto;/*centraliza a caixa horizontalmente*/
+    margin-top: 50px;
+    /*background-color: aqua;*/
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+table{
+    text-align: center;
+}

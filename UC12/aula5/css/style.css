@@ -1,0 +1,20 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+p{
+    background-color: gray;
+    size: 18px;
+}
+
+button{
+    background-color: red;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}

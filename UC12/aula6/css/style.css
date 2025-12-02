@@ -1,0 +1,91 @@
+body {
+    background-color: blueviolet !important;
+    /*importante faz com q caracteristicas não sejam sobreescevidas dps*/
+    text-align: center;
+}
+
+body {
+    background-color: blue;
+    /* a configuração ultilizada é sempre a ultima, sobreescrevendo definições anteriores */
+}
+
+.container {
+    width: 300px !important;
+    height: 100px !important;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+
+}
+main:hover{
+    transform: scale(9) rotate(-18000deg);
+    transition: 200000ms;
+}
+.card {
+    text-align: center;
+    max-width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+
+    margin: 20px;
+    /* background-color: blanchedalmond; */
+    background: linear-gradient(blanchedalmond, crimson);
+
+    display: inline-block;
+
+}
+
+#caixa1 {
+
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 50px;
+
+    background: linear-gradient(rgb(120, 160, 195), purple);
+    border: 2px;
+    border-color: brown;
+    padding: 5px;
+}
+
+#caixa2 {
+    width: 800px;
+    height: 50px;
+    background: linear-gradient(rgb(115, 232, 170), orange);
+    padding: 10px;
+    margin: 20px auto;
+}
+
+#caixa3 {
+    text-align: center;
+    width: 800px;
+    height: 70px;
+    background: linear-gradient(rgb(192, 167, 67), blue);
+    box-sizing: border-box;
+    padding: 5px;
+    word-wrap: break-word;
+    margin: auto;
+
+}
+
+.container:hover {
+    transform: rotate(3600deg) scale(1.5);
+    transition: 5000ms;
+    animation-delay: 500ms;
+    font-style: italic;
+    font-stretch: ultra-expanded;
+
+}
+h1:hover{
+    transform: scale(20)rotate(3600deg);
+    transition: 5000ms;
+}
+.card:hover{
+    transform: scale(0.5) rotate(-3600deg);
+    transition: 5000ms  ;
+}
+.somethinGao{
+    background:linear-gradient(pink red);
+    padding: 20px;
+    border-color: black;
+}

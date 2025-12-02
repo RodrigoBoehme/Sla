@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: flex-start;/*Só funciona se tiver wrap ativo e estiver quebrando linha*/
+}
+.container{
+    width: 100dvh;
+}
+main{
+    background-color: aquamarine;
+    color: blue;
+}
+header{
+    background-color: cornflowerblue;
+}
+footer{
+    background-color: blueviolet;
+}
