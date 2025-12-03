@@ -1,0 +1,22 @@
+:root{
+--cor-fundo: #333;
+--cor-texto: #fff;
+}
+.light{
+    --cor-fundo: linear-gradient(gold,blue);
+    --cor-texto: #333
+}
+.dark{
+    --cor-fundo: linear-gradient(red,grey);
+    --cor-texto: #fff;
+}
+.summer{
+    --cor-fundo: linear-gradient(orange,cyan);
+    --cor-texto: #333;
+}
+body{
+    height: 100dvb;
+    background: var(--cor-fundo);
+    color: var(--cor-texto);
+
+}
